@@ -1,0 +1,24 @@
+/* 
+destkop -> red
+tablet -> grenn 
+mobile -> blue 
+*/
+body {
+  background-color: lightblue;
+}
+/* 
+max-width: largura abaixo de (teto)
+min-width: largura acima de (piso)
+*/
+
+@media (min-width: 481px) {
+  body {
+    background-color: lightgreen;
+  }
+}
+
+@media (min-width: 769px) {
+  body {
+    background-color: lightcoral;
+  }
+}
