@@ -8,6 +8,7 @@
 
 **Resultado Esperado:**
 
+![tela-1](tela-1.png)
 <img src="./tela-1.png">
 
 **Instruções:**
