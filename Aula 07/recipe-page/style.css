@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --stone-50: #faf7f5;
+  --stone-100: #f3e5d8;
+  --stone-150: #eae1da;
+  --stone-600: #716d67;
+  --stone-900: #2a2624;
+  --brown-800: #854632;
+  --rose-50: #fff5fa;
+  --rose-800: #7b284f;
+}
+
+@font-face {
+  font-family: "Outift";
+  src: url("./assets/fonts/outfit/Outfit-VariableFont_wght.ttf");
+  font-weight: 400 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Young Serif";
+  src: url("./assets/fonts/young-serif/YoungSerif-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: var(--stone-100);
+  font-family: "Outift", sans-serif;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+h1, h2 {
+  font-family: "Young Serif", serif;
+}
+
+main {
+  background-color: #fff;
+  max-width: 768px;
+  margin: 0 auto;
+}
+
+.recipe-details {
+  padding: 2rem;
+}
+
+.recipe-name {
+  margin-bottom: 2rem;
+  color: var(--stone-900);
+  font-size: 2.25rem
+}
+
+.recipe-description {
+  margin-bottom: 2rem;
+  font-size: 1.125rem;
+  color: var(--stone-600);
+  line-height: 1.6;
+}
+
+.recipe-preparation {
+  background-color: var(--rose-50);
+  padding: 2rem;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+}
+
+.recipe-preparation h3 {
+  font-size: 1.5rem;
+  color: var(--rose-800);
+  margin-bottom: 1.25rem;
+}
+
+.recipe-preparation ul {
+  /* list-style-position: inside; */
+  padding-left: 1.25rem;
+  color: var(--stone-600);
+}
+
+.recipe-preparation ul li {
+  padding-left: 0.75rem;
+}
+
+.recipe-preparation ul li:not(:last-child) {
+  margin-bottom: 0.75rem;
+}
+
+.recipe-preparation ul li::marker {
+  color: var(--rose-800);
+}
+
+.recipe-ingredients {
+  border-bottom: 1px solid var(--stone-150);
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+}
+
+.recipe-ingredients h2 {
+  font-size: 1.875rem;
+  color: var(--brown-800);
+  margin-bottom: 1.25rem;
+  font-weight: normal;
+}
+
+.recipe-ingredients ul {
+  padding-left: 1.25rem;
+  color: var(--stone-600);
+  font-size: 1.125rem;
+}
+
+.recipe-ingredients ul li {
+  padding-left: 0.75rem;
+}
+
+.recipe-ingredients ul li:not(:last-child) {
+  margin-bottom: 0.75rem;
+}
+
+.recipe-ingredients ul li::marker {
+  color: var(--brown-800);
+}
+
+.recipe-instructions {
+  border-bottom: 1px solid var(--stone-150);
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+  font-size: 1.125rem;
+}
+
+.recipe-instructions h2 {
+  font-size: 1.875rem;
+  color: var(--brown-800);
+  margin-bottom: 1.25rem;
+  font-weight: normal;
+}
+
+.recipe-instructions ol {
+  padding-left: 1.25rem;
+  color: var(--stone-600);
+}
+
+.recipe-instructions ol li {
+  padding-left: 0.75rem;
+  line-height: 1.5;
+}
+
+.recipe-instructions ol li:not(:last-child) {
+  margin-bottom: 0.75rem;
+}
+
+.recipe-instructions ol li::marker {
+  color: var(--brown-800);
+  font-weight: bold;
+}
+
+.recipe-nutrition h2 {
+  font-size: 1.875rem;
+  color: var(--brown-800);
+  margin-bottom: 1.25rem;
+  font-weight: normal;
+}
+
+.recipe-nutrition p {
+  color: var(--stone-600);
+  line-height: 1.6;
+}
+
+.container-table {
+  width: 100%;
+  margin: 20px 0;
+  overflow-x: auto;
+}
+
+.container-table table {
+  border-collapse: collapse;
+  min-width: 43.75rem;
+  text-align: center;
+}
+
+.container-table table caption {
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: normal;
+  color: var(--stone-900);
+  margin-bottom: 0.7rem;
+  font-family: "Young Serif", serif;
+}
+
+.container-table table th {
+  background-color: var(--stone-100);
+  color: var(--stone-900);
+}
+
+.container-table table th,
+.container-table table td {
+  border: 1px solid var(--stone-150);
+  padding: 0.625rem 0.875rem;
+}
+
+.container-table table tbody tr:nth-child(even) {
+  background-color: var(--stone-50);
+}
+
+.container-table table tbody strong {
+  color: var(--brown-800);
+}
+
+@media (min-width: 768px) {
+  body {
+    padding: 3.75rem 0;
+  }
+
+  main {
+    border-radius: 0.75rem;
+  }
+
+  .recipe-image {
+    padding: 2rem 2rem 0 2rem;
+  }
+
+  .recipe-image img {
+    border-radius: 0.75rem;
+  }
+}
