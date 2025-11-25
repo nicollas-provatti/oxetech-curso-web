@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portifólio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header__name">Marcos Lima</h1>
+      <nav id="nav-desktop" class="header__nav">
+        <a href="#about">Sobre</a>
+        <a href="#skills">Habilidades</a>
+        <a href="#education">Formação</a>
+        <a href="#projects">Projetos</a>
+        <a href="#contact">Contato</a>
+      </nav>
+      <button id="btn-theme" class="btn">
+        <i class="fa-solid fa-moon"></i>
+      </button>
+      <button id="btn-open" class="btn">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </header>
+
+    <nav id="nav-mobile" class="nav-mobile hidden">
+      <button id="btn-close" class="btn">
+        <i class="fa-solid fa-x"></i>
+      </button>
+      <a href="#about">Sobre</a>
+      <a href="#skills">Habilidades</a>
+      <a href="#education">Formação</a>
+      <a href="#projects">Projetos</a>
+      <a href="#contact">Contato</a>
+    </nav>
+
+    <main class="profile">
+      <div class="profile__grid">
+        <div class="profile__sidebar">
+          <aside class="profile-card">
+            <div class="profile-card__image">
+              <img
+                src="./images/foto de perfil.jpg"
+                alt="foto de Marcos Lima"
+              />
+            </div>
+            <h1 class="profile-card__name">Marcos Lima</h1>
+            <p class="profile-card__description">
+              Apaixonado por tecnologia e desenvolvimento web, buscando sempre
+              aprender e criar soluções criativas que unam design e
+              funcionalidade.
+            </p>
+            <div class="profile-card__details">
+              <p><i class="fa-solid fa-briefcase"></i> Dev Frontend</p>
+              <p><i class="fa-solid fa-house"></i> Maceió</p>
+              <p>
+                <i class="fa-solid fa-envelope"></i> marcoslimadev@hotmail.com
+              </p>
+              <p><i class="fa-solid fa-phone"></i> (82) 9 9999-9999</p>
+            </div>
+          </aside>
+        </div>
+        <div class="profile__content">
+          <section id="about" class="profile-about">
+            <h2>Sobre</h2>
+
+            <p>
+              Olá! Meu nome é <strong>Bruno Malta</strong> e sou um
+              <strong>Desenvolvedor Frontend</strong> apaixonado por transformar
+              ideias em experiências digitais. Gosto de criar interfaces
+              modernas, responsivas e focadas na melhor experiência do usuário.
+            </p>
+
+            <p>
+              Tenho conhecimento em <strong>HTML, CSS, JavaScript</strong> e
+              <strong>React</strong>, e estou sempre em busca de aprender novas
+              tecnologias. Atualmente, estou construindo projetos para meu
+              portfólio e ampliando minhas habilidades com
+              <strong>Node.js</strong> e integração com APIs.
+            </p>
+
+            <div class="profile-about__image">
+              <img src="./images/programando.png" alt="Foto programando" />
+            </div>
+
+            <p>
+              Além da programação, gosto de <strong>resolver problemas</strong>,
+              aprender continuamente e colaborar em equipe para entregar
+              resultados de qualidade. 🚀
+            </p>
+          </section>
+          <section id="skills" class="profile-skills">
+            <h2>Habilidades</h2>
+            <p>
+              Domínio das <strong>principais tecnologias de front-end</strong> e
+              em constante evolução para acompanhar as tendências do mercado,
+              unindo <strong>boas páticas de código</strong> e foco em
+              <strong>experiência do usuário.</strong>
+            </p>
+
+            <div class="profile-skills__container">
+              <div class="profile-skills__group">
+                <div class="profile-skills__item">
+                  <p class="profile-skills__label">
+                    <i class="fa-brands fa-html5"></i> HTML5
+                  </p>
+
+                  <div class="profile-skills__progress">
+                    <div class="profile-skills__progress-bar">
+                      <div
+                        class="profile-skills__progress-fill"
+                        style="width: 90%"
+                      ></div>
+                    </div>
+                    <p class="profile-skills__percentage">90%</p>
+                  </div>
+                </div>
+
+                <div class="profile-skills__item">
+                  <p class="profile-skills__label">
+                    <i class="fa-brands fa-css3-alt"></i> CSS3
+                  </p>
+
+                  <div class="profile-skills__progress">
+                    <div class="profile-skills__progress-bar">
+                      <div
+                        class="profile-skills__progress-fill"
+                        style="width: 85%"
+                      ></div>
+                    </div>
+                    <p class="profile-skills__percentage">85%</p>
+                  </div>
+                </div>
+
+                <div class="profile-skills__item">
+                  <p class="profile-skills__label">
+                    <i class="fa-brands fa-js"></i> JavaScript
+                  </p>
+
+                  <div class="profile-skills__progress">
+                    <div class="profile-skills__progress-bar">
+                      <div
+                        class="profile-skills__progress-fill"
+                        style="width: 80%"
+                      ></div>
+                    </div>
+                    <p class="profile-skills__percentage">80%</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="profile-skills__group">
+                <div class="profile-skills__item">
+                  <p class="profile-skills__label">
+                    <i class="fa-solid fa-message"></i> Comunicação
+                  </p>
+
+                  <div class="profile-skills__progress">
+                    <div class="profile-skills__progress-bar">
+                      <div
+                        class="profile-skills__progress-fill"
+                        style="width: 85%"
+                      ></div>
+                    </div>
+                    <p class="profile-skills__percentage">85%</p>
+                  </div>
+                </div>
+
+                <div class="profile-skills__item">
+                  <p class="profile-skills__label">
+                    <i class="fa-brands fa-teamspeak"></i> Trabalho em equipe
+                  </p>
+
+                  <div class="profile-skills__progress">
+                    <div class="profile-skills__progress-bar">
+                      <div
+                        class="profile-skills__progress-fill"
+                        style="width: 80%"
+                      ></div>
+                    </div>
+                    <p class="profile-skills__percentage">80%</p>
+                  </div>
+                </div>
+
+                <div class="profile-skills__item">
+                  <p class="profile-skills__label">
+                    <i class="fa-solid fa-circle-exclamation"></i> Resolução de
+                    problemas
+                  </p>
+
+                  <div class="profile-skills__progress">
+                    <div class="profile-skills__progress-bar">
+                      <div
+                        class="profile-skills__progress-fill"
+                        style="width: 90%"
+                      ></div>
+                    </div>
+                    <p class="profile-skills__percentage">90%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section id="education" class="profile-education">
+            <h2>Formação</h2>
+
+            <p>
+              Minha <strong>formação acadêmica</strong> e
+              <strong>cursos complementares</strong> refletem meu compromisso em
+              adquirir uma
+              <strong>base sólida em tecnologia e desenvolvimento</strong>,
+              sempre buscando aprimorar minhas
+              <strong>habilidades técnicas</strong>
+              e ampliar meus conhecimentos.
+            </p>
+
+            <h3 class="profile-education__subtitle">Graduação</h3>
+
+            <div>
+              <div class="profile-education__item">
+                <h4>Bacharelado em Ciência da Computação</h4>
+                <p>Universidade de Alagoas (2020 - 2024)</p>
+              </div>
+
+              <div class="profile-education__item">
+                <h4>Tecnólogo em Análise e Desenvolvimento de Sistemas</h4>
+                <p>Faculdade Digital Tech (2018 - 2020)</p>
+              </div>
+            </div>
+
+            <h3 class="profile-education__subtitle">Cursos Complementares</h3>
+
+            <div>
+              <div class="profile-education__item">
+                <h4>Curso de HTML e CSS</h4>
+                <p>Plataforma Online DevPro (2023)</p>
+              </div>
+
+              <div class="profile-education__item">
+                <h4>JavaScript Moderno: ES6+</h4>
+                <p>Bootcamp CodeMaster (2022)</p>
+              </div>
+
+              <div class="profile-education__item">
+                <h4>Git e GitHub para Desenvolvedores</h4>
+                <p>Certificação DevHub (2021)</p>
+              </div>
+            </div>
+          </section>
+          <section id="projects" class="profile-projects">
+            <h2>Projetos</h2>
+
+            <p>
+              Aqui você encontra alguns dos meus
+              <strong>principais projetos</strong>, desenvolvidos para aprimorar
+              minhas habilidades, explorar novas tecnologias e criar
+              experiências <strong>modernas e funcionais</strong> na web.
+            </p>
+
+            <div class="profile-projects__grid">
+              <div class="profile-projects__item">
+                <div class="profile-projects__image">
+                  <img src="./images/projeto-1.jpg" alt="projeto 1" />
+                </div>
+
+                <h3>Social links profile</h3>
+
+                <p>
+                  Neste pequeno projeto, eu criei um perfil para o
+                  compartilhamento dos links das minhas redes sociais.
+                </p>
+
+                <ul class="profile-projects__tech-list">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                </ul>
+
+                <div class="profile-projects__links">
+                  <a href="#"> <i class="fa-brands fa-github"></i> Código </a>
+
+                  <a href="#">
+                    <i class="fa-solid fa-up-right-from-square"></i> Demo
+                  </a>
+                </div>
+              </div>
+
+              <div class="profile-projects__item">
+                <div class="profile-projects__image">
+                  <img src="./images/projeto-2.jpg" alt="projeto 2" />
+                </div>
+
+                <h3 class="profile-projects__name">Recipe page</h3>
+
+                <p class="profile-projects__text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Nihil, earum deleniti, distinctio consequatur sint eveniet
+                  ducimus et ipsam.
+                </p>
+
+                <ul class="profile-projects__tech-list">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                </ul>
+
+                <div class="profile-projects__links">
+                  <a href="#"> <i class="fa-brands fa-github"></i> Código </a>
+
+                  <a href="#">
+                    <i class="fa-solid fa-up-right-from-square"></i> Demo
+                  </a>
+                </div>
+              </div>
+
+              <div class="profile-projects__item">
+                <div class="profile-projects__image">
+                  <img src="./images/projeto-3.jpg" alt="projeto 3" />
+                </div>
+
+                <h3 class="profile-projects__name">
+                  NFT preview card component
+                </h3>
+
+                <p class="profile-projects__text">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod
+                  suscipit, iusto minima numquam praesentium, tenetur iure.
+                </p>
+
+                <ul class="profile-projects__tech-list">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                </ul>
+
+                <div class="profile-projects__links">
+                  <a href="#"> <i class="fa-brands fa-github"></i> Código </a>
+
+                  <a href="#">
+                    <i class="fa-solid fa-up-right-from-square"></i> Demo
+                  </a>
+                </div>
+              </div>
+
+              <div class="profile-projects__item">
+                <div class="profile-projects__image">
+                  <img src="./images/projeto-4.jpg" alt="projeto 4" />
+                </div>
+
+                <h3 class="profile-projects__name">
+                  3-column preview card component
+                </h3>
+
+                <p class="profile-projects__text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut
+                  quas ullam debitis consequatur. Distinctio adipisci fugia.
+                </p>
+
+                <ul class="profile-projects__tech-list">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                </ul>
+
+                <div class="profile-projects__links">
+                  <a href="#"> <i class="fa-brands fa-github"></i> Código </a>
+
+                  <a href="#">
+                    <i class="fa-solid fa-up-right-from-square"></i> Demo
+                  </a>
+                </div>
+              </div>
+
+              <div class="profile-projects__item">
+                <div class="profile-projects__image">
+                  <img src="./images/projeto-5.jpg" alt="projeto 5" />
+                </div>
+
+                <h3 class="profile-projects__name">
+                  Fylo dark theme landing page
+                </h3>
+
+                <p class="profile-projects__text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic
+                  facere nobis distinctio voluptatibus tenetur id culpa quod.
+                </p>
+
+                <ul class="profile-projects__tech-list">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                </ul>
+
+                <div class="profile-projects__links">
+                  <a href="#"> <i class="fa-brands fa-github"></i> Código </a>
+
+                  <a href="#">
+                    <i class="fa-solid fa-up-right-from-square"></i> Demo
+                  </a>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section id="contact" class="profile-contact">
+            <h2>Contato</h2>
+
+            <p>
+              Fique à vontade para entrar em <strong>contato</strong> comigo
+              para <strong>projetos, parcerias</strong> ou qualquer dúvida
+              relacionada a <strong>desenvolvimento web</strong>. Estou sempre
+              aberto a novas oportunidades e colaborações.
+            </p>
+
+            <form class="profile-contact__form">
+              <div class="entry-group">
+                <label for="nome" class="entry-group__label">Nome</label>
+                <input
+                  type="text"
+                  name="nome"
+                  id="nome"
+                  class="entry-group__input"
+                />
+              </div>
+
+              <div class="entry-group">
+                <label for="email" class="entry-group__label">Email</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  class="entry-group__input"
+                />
+              </div>
+
+              <div class="entry-group">
+                <label for="mensagem" class="entry-group__label"
+                  >Mensagem</label
+                >
+                <textarea
+                  name="mensagem"
+                  id="mensagem"
+                  rows="15"
+                  class="entry-group__input"
+                ></textarea>
+              </div>
+
+              <button class="profile-contact__button">Enviar</button>
+            </form>
+          </section>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>&copy;Todos os direitos reservados a Marcos Lima.</p>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
