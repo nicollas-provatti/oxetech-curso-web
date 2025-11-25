@@ -1,0 +1,228 @@
+Apaixonado por tecnologia e desenvolvimento web, buscando sempre aprender e criar soluções criativas que unam design e funcionalidade.
+
+<p><i class="fa-solid fa-briefcase"></i> Dev Frontend</p>
+<p><i class="fa-solid fa-house"></i> Maceió</p>
+<p><i class="fa-solid fa-envelope"></i> marcoslimadev@hotmail.com</p>
+<p><i class="fa-solid fa-phone"></i> (82) 9 9999-9999</p>
+
+Sobre
+
+Olá! Meu nome é <strong>Bruno Malta</strong> e sou um
+<strong>Desenvolvedor Frontend</strong> apaixonado por transformar ideias
+em experiências digitais. Gosto de criar interfaces modernas, responsivas
+e focadas na melhor experiência do usuário.
+
+Tenho conhecimento em <strong>HTML, CSS, JavaScript</strong> e
+<strong>React</strong>, e estou sempre em busca de aprender novas
+tecnologias. Atualmente, estou construindo projetos para meu portfólio e
+ampliando minhas habilidades com <strong>Node.js</strong> e integração com
+APIs.
+
+Além da programação, gosto de <strong>resolver problemas</strong>,
+aprender continuamente e colaborar em equipe para entregar resultados de
+qualidade. 🚀
+
+Habilidades
+
+Domínio das <strong>principais tecnologias de front-end</strong> e em
+constante evolução para acompanhar as tendências do mercado, unindo
+<strong>boas páticas de código</strong> e foco em
+<strong>experiência do usuário.</strong>
+
+<div class="profile-skills__item">
+  <p class="profile-skills__label">
+    <i class="fa-brands fa-css3-alt"></i> CSS3
+  </p>
+
+  <div class="profile-skills__progress">
+    <div class="profile-skills__progress-bar">
+      <div class="profile-skills__progress-fill" style="width: 85%"></div>
+    </div>
+    <p class="profile-skills__percentage">85%</p>
+  </div>
+</div>
+
+<div class="profile-skills__item">
+  <p class="profile-skills__label">
+    <i class="fa-brands fa-js"></i> JavaScript
+  </p>
+
+  <div class="profile-skills__progress">
+    <div class="profile-skills__progress-bar">
+      <div class="profile-skills__progress-fill" style="width: 80%"></div>
+    </div>
+    <p class="profile-skills__percentage">80%</p>
+  </div>
+</div>
+
+<div class="profile-skills__item">
+  <p class="profile-skills__label">
+    <i class="fa-solid fa-message"></i> Comunicação
+  </p>
+
+  <div class="profile-skills__progress">
+    <div class="profile-skills__progress-bar">
+      <div class="profile-skills__progress-fill" style="width: 85%"></div>
+    </div>
+    <p class="profile-skills__percentage">85%</p>
+  </div>
+</div>
+
+<div class="profile-skills__item">
+  <p class="profile-skills__label">
+    <i class="fa-brands fa-teamspeak"></i> Trabalho em equipe
+  </p>
+
+  <div class="profile-skills__progress">
+    <div class="profile-skills__progress-bar">
+      <div class="profile-skills__progress-fill" style="width: 80%"></div>
+    </div>
+    <p class="profile-skills__percentage">80%</p>
+  </div>
+</div>
+
+<div class="profile-skills__item">
+  <p class="profile-skills__label">
+    <i class="fa-solid fa-circle-exclamation"></i> Resolução de problemas
+  </p>
+
+  <div class="profile-skills__progress">
+    <div class="profile-skills__progress-bar">
+      <div class="profile-skills__progress-fill" style="width: 90%"></div>
+    </div>
+    <p class="profile-skills__percentage">90%</p>
+  </div>
+</div>
+
+Formação
+
+Minha <strong>formação acadêmica</strong> e
+<strong>cursos complementares</strong> refletem meu compromisso em adquirir
+uma <strong>base sólida em tecnologia e desenvolvimento</strong>, sempre
+buscando aprimorar minhas
+<strong>habilidades técnicas</strong>
+e ampliar meus conhecimentos.
+
+Projetos
+
+Aqui você encontra alguns dos meus
+<strong>principais projetos</strong>, desenvolvidos para aprimorar minhas
+habilidades, explorar novas tecnologias e criar experiências
+<strong>modernas e funcionais</strong> na web.
+
+
+
+<div class="profile-projects__item">
+  <div class="profile-projects__image">
+    <img src="./images/projeto-2.jpg" alt="projeto 2" />
+  </div>
+
+  <h3 class="profile-projects__name">Recipe page</h3>
+
+  <p class="profile-projects__text">
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil, earum
+    deleniti, distinctio consequatur sint eveniet ducimus et ipsam.
+  </p>
+
+  <ul class="profile-projects__tech-list">
+    <li>HTML</li>
+    <li>CSS</li>
+  </ul>
+
+  <div class="profile-projects__links">
+    <a href="#"> <i class="fa-brands fa-github"></i> Código </a>
+
+    <a href="#"> <i class="fa-solid fa-up-right-from-square"></i> Demo </a>
+  </div>
+</div>
+
+<div class="profile-projects__item">
+  <div class="profile-projects__image">
+    <img src="./images/projeto-3.jpg" alt="projeto 3" />
+  </div>
+
+  <h3 class="profile-projects__name">NFT preview card component</h3>
+
+  <p class="profile-projects__text">
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod suscipit,
+    iusto minima numquam praesentium, tenetur iure.
+  </p>
+
+  <ul class="profile-projects__tech-list">
+    <li>HTML</li>
+    <li>CSS</li>
+  </ul>
+
+  <div class="profile-projects__links">
+    <a href="#"> <i class="fa-brands fa-github"></i> Código </a>
+
+    <a href="#"> <i class="fa-solid fa-up-right-from-square"></i> Demo </a>
+  </div>
+</div>
+
+<div class="profile-projects__item">
+  <div class="profile-projects__image">
+    <img src="./images/projeto-4.jpg" alt="projeto 4" />
+  </div>
+
+  <h3 class="profile-projects__name">3-column preview card component</h3>
+
+  <p class="profile-projects__text">
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut quas ullam
+    debitis consequatur. Distinctio adipisci fugia.
+  </p>
+
+  <ul class="profile-projects__tech-list">
+    <li>HTML</li>
+    <li>CSS</li>
+  </ul>
+
+  <div class="profile-projects__links">
+    <a href="#"> <i class="fa-brands fa-github"></i> Código </a>
+
+    <a href="#"> <i class="fa-solid fa-up-right-from-square"></i> Demo </a>
+  </div>
+</div>
+
+<div class="profile-projects__item">
+  <div class="profile-projects__image">
+    <img src="./images/projeto-5.jpg" alt="projeto 5" />
+  </div>
+
+  <h3 class="profile-projects__name">Fylo dark theme landing page</h3>
+
+  <p class="profile-projects__text">
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic facere nobis
+    distinctio voluptatibus tenetur id culpa quod.
+  </p>
+
+  <ul class="profile-projects__tech-list">
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+  </ul>
+
+  <div class="profile-projects__links">
+    <a href="#"> <i class="fa-brands fa-github"></i> Código </a>
+
+    <a href="#"> <i class="fa-solid fa-up-right-from-square"></i> Demo </a>
+  </div>
+</div>
+
+Contato
+
+Fique à vontade para entrar em <strong>contato</strong> comigo para
+<strong>projetos, parcerias</strong> ou qualquer dúvida relacionada a
+<strong>desenvolvimento web</strong>. Estou sempre aberto a novas
+oportunidades e colaborações.
+
+[data-theme="dark"] {
+  --fundo-principal: #1e1e2f;
+  --texto-principal: #eaeaea;
+  --texto-secundario: #cfcfcf;
+  --destaque-principal: #5e7fff;
+  --destaque-secundario: #8ab0ff;
+  --fundo-card: #2a2a3c;
+  --sombra-card: 3px 3px 0 rgba(138, 175, 255, 0.459);
+  --borda: 1px solid #151515;
+}

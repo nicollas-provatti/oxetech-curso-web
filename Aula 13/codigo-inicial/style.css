@@ -1,0 +1,29 @@
+:root {
+  --fundo-principal: #fafafa;
+  --texto-principal: #1c1c1c;
+  --texto-secundario: #333333;
+  --destaque-principal: #6c4ad8;
+  --destaque-secundario: #9a7dff;
+  --fundo-card: #ffffff;
+  --branco: rgba(255, 255, 255, 0.8);
+  --sombra: 0 3px 12px rgba(0, 0, 0, 0.1);
+  --sombra-card: 3px 3px 0 rgba(153, 125, 255, 0.38);
+  --borda: 1px solid #f1f1f1;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--fundo-principal);
+  transition: all 0.3s ease;
+}
